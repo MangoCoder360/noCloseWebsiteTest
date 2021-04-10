@@ -1,10 +1,16 @@
 <h1>Click anywhere on this page!</h1>
 <h2>We are the OrangeKoalas!</h2>
+<button onclick="pass1()">I wonder what this button does?</button>
+<button onclick="pass2()">I wonder what this other button does?</button>
 <script>
-function pass() {
+function pass1() {
 var ansf=prompt ("Password Required", "Password");
 if (ansf=="BabyKoala") window.open("https://static.euronews.com/articles/stories/04/77/97/48/1440x810_cmsv2_b9078666-38ab-5387-be8f-0cd84b8f2ec1-4779748.jpg", "Koala", "height=1000,width=1000,location=0");
 else (pass());
 }
-window.onclick = pass;
+function pass2() {
+var ansf=prompt ("Password Required", "Password");
+if (ansf=="PapaKoala") window.open("https://www.motherjones.com/wp-content/uploads/2019/08/koala-8-20-19.jpg?w=990", "Koala", "height=1000,width=1000,location=0");
+else (pass());
+}
 </script>
